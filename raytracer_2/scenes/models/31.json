@@ -1,0 +1,233 @@
+{
+    "Eye": [200, 200, 420],
+    "Background": [1, 1, 0],
+    "MaxRecursionDepth": 7,
+    "SuperSamplingFactor": 3,
+    "Shadows": true,
+    "HazeAbsorption": 0.002,
+    "HazeColour": [0.6, 0.6, 0.6],
+    "Lights": [
+        {
+            "position": [-200, 550, 1000],
+            "color": [1.0, 1.0, 1.0]
+        },
+        {
+            "position": [600, 550, 1000],
+            "color": [1.0, 1.0, 1.0]
+        }
+    ],
+    "Objects": [
+        {
+            "type": "quad",
+            "v0": [100, 100, 200],
+            "v1": [100, 100, -500],
+            "v2": [300, 100, -500],
+            "v3": [300, 100, 200],
+            "material":
+            {
+                "color" : [1, 0, 0],
+                "ka": 0.2,
+                "kd": 0.8,
+                "ks": 0.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "quad",
+            "v0": [100, 100, -500],
+            "v1": [100, 300, -500],
+            "v2": [300, 300, -500],
+            "v3": [300, 100, -500],
+            "material":
+            {
+                "color" : [0, 1, 0],
+                "ka": 0.2,
+                "kd": 0.8,
+                "ks": 0.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "quad",
+            "v0": [100, 100, 200],
+            "v1": [100, 100, -500],
+            "v2": [100, 300, -500],
+            "v3": [100, 300, 200],
+            "material":
+            {
+                "color" : [0, 0, 1],
+                "ka": 0.2,
+                "kd": 0.8,
+                "ks": 0.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "quad",
+            "v0": [300, 100, 200],
+            "v1": [300, 100, -500],
+            "v2": [300, 300, -500],
+            "v3": [300, 300, 200],
+            "material":
+            {
+                "color" : [1, 0, 1],
+                "ka": 0.2,
+                "kd": 0.8,
+                "ks": 0.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "quad",
+            "v0": [100, 300, 200],
+            "v1": [300, 300, 200],
+            "v2": [300, 300, -500],
+            "v3": [100, 300, -500],
+            "material":
+            {
+                "color" : [0, 1, 1],
+                "ka": 0.2,
+                "kd": 0.8,
+                "ks": 0.0,
+                "n": 64
+            }
+        },
+        {
+            "type": "mesh",
+            "comment": "cube",
+            "filename": "../models/cube1.obj",
+            "position": [200, 200, 160],
+            "scale": [90, 90, 90],
+            "rotation": [45, 37, 0],
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.4],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.9,
+                "absorption": 0.02,
+                "haze": 0.0,
+                "n": 64
+            }
+            
+        },
+        {
+            "type": "sphere",
+            "position": [200, 200, 160],
+            "radius": 22,
+            "material":
+            {
+                "color" : [1.0, 0.0, 1.0],
+                "ka": 0.0,
+                "kd": 0.2,
+                "ks": 0.8,
+                "n": 1
+            }
+            
+        },
+        {
+            "type": "sphere",
+            "position": [130, 270, 200],
+            "radius": 18,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.05,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "position": [250, 220, 220],
+            "radius": 12,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.03,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "position": [145, 260, 145],
+            "radius": 12,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.03,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "position": [260, 130, 220],
+            "radius": 14,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.02,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "position": [140, 140, 210],
+            "radius": 12,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.03,
+                "n": 64
+            }
+        },
+        {
+            "type": "sphere",
+            "position": [260, 190, 210],
+            "radius": 7,
+            "material":
+            {
+                "color" : [0.8, 0.8, 0.8],
+                "ka": 0.0,
+                "kd": 0.0,
+                "ks": 0.0,
+                "isTransparent": true,
+                "nt": 1.0,
+                "absorption": 0.0,
+                "haze": 0.06,
+                "n": 64
+            }
+        }
+    ]
+}
