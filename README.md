@@ -32,6 +32,7 @@ These shadows do not take refraction into account, I hope it's clear why.
 ## Example render
 
 The below image shows almost all of the features of the current implementation. It shows a glassy cube encapsulating a reflective ball.
+The cube is coloured yellow-ish, which is why the blue color that is refracted through it is diminished the most.
 Some hazy fog bubbles are made with a material with a matching refractive index to the scene(1.0).
 
 <img width="400" height="400" alt="31" src="https://github.com/user-attachments/assets/51689695-fcea-474f-8248-c5a4f4de4470" />
